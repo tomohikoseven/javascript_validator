@@ -7,13 +7,14 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node node_modules/jest/bin/jest.js"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "jest": "^27.5.1"
   }
 }
