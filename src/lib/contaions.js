@@ -3,7 +3,7 @@ import toString from "./util/toString";
 import merge from "./util/merge";
 
 const defaultContainsOptions = {
-  ignoreCase: false, // false:文字の大小を考慮する.
+  ignoreCase: false, // false:文字の大小を区別する.
   minOccurrences: 1, // 文字列が含まれる数
 };
 
